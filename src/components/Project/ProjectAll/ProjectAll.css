@@ -1,0 +1,38 @@
+.pageMarsing{
+margin: 60px;
+}
+.singleProject {
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 5px;
+    background: #262626;
+}
+
+.singleProject .projectDetail {
+    color: #fff;
+    background: #424242;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.projectDetail h3 {
+    font-size: 25px;
+    color: #4eff4e;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.projectDetail p {
+    font-size: 15px;
+    color: #f7f7c4;
+}
+
+.projectDetail a {
+    background: #000;
+    padding: 6px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 5px;
+}

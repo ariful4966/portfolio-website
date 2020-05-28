@@ -1,0 +1,15 @@
+.aboutArea .downloadBTN {
+    text-decoration: none;
+    background: #f39202;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #f39202;
+    transition: .5s;
+}
+
+.aboutArea  .downloadBTN:hover {
+    background: none;
+    color: #f39202;
+}

@@ -1,0 +1,11 @@
+.sliderImg img {
+    height: 400px;
+}
+.singSlidIcon li {
+    background: #e59898;
+    box-sizing: border-box;
+    padding: 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}

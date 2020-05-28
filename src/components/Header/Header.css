@@ -1,0 +1,21 @@
+.headerBg {
+    background: #266d08;
+    box-shadow: 0 0px 4px 2px grey;
+}
+.headerArea img {
+    height: 100%;
+}
+.nav-padding {
+    margin: 0;
+    padding: 0;
+}
+.site_menu li a {
+    color: #f29898;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.site_menu li a:hover {
+    color: #9dafc3;
+}

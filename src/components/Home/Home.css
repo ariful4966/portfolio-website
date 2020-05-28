@@ -1,0 +1,35 @@
+h2.sectionHeading {
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: green;
+    padding: 10px;
+}
+
+h2.sectionHeading::after {
+    position: absolute;
+    content: '';
+    width: 10%;
+    height: 5px;
+    background: green;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+h2.sectionHeading::before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 1px solid green;
+    border-radius: 50%;
+    left: 50%;
+    bottom: -5px;
+    z-index: 1;
+    background: #fff;
+    transform: translateX(-50%);
+}

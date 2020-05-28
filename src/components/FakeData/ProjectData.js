@@ -1,0 +1,8 @@
+var projectData = [
+    {"key":"PROJECT01", "category":"eCommerce", "name":"Ema-Jhon","about":"It is Product base eCommerce website. People choice the any type of product and buy it","img":"https://images-na.ssl-images-amazon.com/images/I/51mEVhwXGKL._AC_US218_.jpg", "url":"https://ema-jonh.netlify.app/"},
+    {"key":"PROJECT02", "category":"eCommerce", "name":"Red Onion Restuarant","about":"It is Product base eCommerce website. Actualy it is Food website. Food are divide three category ",  "img":"https://i.ibb.co/R06MmSh/breakfast4.png", "url":"https://red-onion.netlify.app/"},
+    {"key":"PROJECT03", "category":"eCommerce", "name":"Doctors Protal","about":"It is a doctor ans patient communication website. In this site are there many type of specialist doctor for patient appoinment. ", "img":"https://i.ibb.co/tsfwrLY/Mask-Group-1.png", "url":"https://doctors-appoinment.netlify.app/"},
+    {"key":"PROJECT04", "category":"Chating", "name":"Chat App","about":"This is Real time chat Application. People can chating comunication one and many other at a time ",  "img":"https://i.ibb.co/gWk8SBm/chat-app.png", "url":"https://chart-apps.netlify.app/"},
+    {"key":"PROJECT05", "category":"Facebook", "name":"Friends Information ","about":"In this site like as facebook. any people can view their friend information and add there friend list. ",  "img":"https://i.ibb.co/HNvcgpd/friends-info.png", "url":"https://friends-info.netlify.app/"},
+]
+export default projectData;

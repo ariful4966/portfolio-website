@@ -1,0 +1,48 @@
+section.contactForm form .formItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #0cf5a7;
+}
+
+.formItem label {
+    width: 50%;
+    height: auto;
+}
+
+.formItem input {
+    border: none;
+    width: 50%;
+    height: auto;
+    outline: none;
+}
+.formItem label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.resone textarea {
+    width: 100%;
+    height: 100%;
+    border:1px solid #0cf5a7;
+    border-radius: 5px;
+}
+.contactForm form input[type='submit'], .contactForm form input[type='reset'] {
+    border: navajowhite;
+    background: #0ff5b2;
+    margin: 10px 20px 10px 0px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f29898;
+    border-radius: 5px;
+}
+.verticalBorder {
+    height: 100%;
+    width: 3px;
+    display: block;
+    background: #04f5a2;
+    margin: 0 auto;
+    border-radius: 9px;
+}

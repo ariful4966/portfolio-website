@@ -1,0 +1,90 @@
+.footerHeading h4 {
+    color: #04f5b2;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.footerTop {
+    padding: 20px 0;
+}
+
+.footerHeading h4::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: #f39202;
+    left: 0;
+    bottom: 0;
+}
+
+.footerTop ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footerTop ul li {
+    color: #f3cafd;
+}
+
+element.style {
+}
+<style>
+ul.socialMedia li:nth-child(1) a {
+    background: #3b5999;
+}
+
+ul.socialMedia li a {
+    color: #fff;
+    background: #000;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+ul.socialMedia {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul.socialMedia li:nth-child(1) a {
+    background: #3b5999;
+}
+ul.socialMedia {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul.socialMedia li:nth-child(2) a {
+    background: #0077B5;
+}
+
+ul.socialMedia li:nth-child(3) a {
+    background: #55acee;
+}
+
+ul.socialMedia li:nth-child(4) a {
+    background: #231919;
+}
+
+ul.socialMedia li:nth-child(5) a {
+    background: #dd4b39;
+}
+
+.footerButton p {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color: #04f5b2;
+    font-size: 14px;
+}

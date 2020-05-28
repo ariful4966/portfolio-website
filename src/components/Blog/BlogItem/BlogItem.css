@@ -1,0 +1,39 @@
+.singleBog {
+    border: 1px ridge blue;
+    padding: 5px;
+    border-radius: 5px;
+    background: #efe4f1;
+    margin-bottom: 10px;
+}
+
+
+.blogPic img {
+    height: 200px;
+}
+
+.blogDetail h2 {
+    font-size: 22px;
+    font-family: tahoma;
+    font-weight: 600;
+    color: #735836;
+}
+
+.blogDetail p {
+    color: #266d08;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.blogDetail a {
+    text-align: center;
+    display: block;
+    color: #00f;
+    font-weight: 700;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.blogDetail a:hover {
+    background: #00f;
+    color: #fff;
+}

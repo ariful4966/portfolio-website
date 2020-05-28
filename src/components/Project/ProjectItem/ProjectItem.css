@@ -1,0 +1,9 @@
+.singleProject .projectPic {
+    overflow:hidden;
+}
+
+.singleProject .projectPic img {
+    width: 100%;
+    height:250px;
+    display: block;
+}
